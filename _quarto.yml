@@ -30,5 +30,5 @@ format:
     toc-expand: true
     anchor-sections: true
     smooth-scroll: true
-    css: styles.css       # <- add this file
+    css: styles.css       
     include-before-body: _partials/banner.html

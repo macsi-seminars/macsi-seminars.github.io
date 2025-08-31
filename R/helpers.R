@@ -6,6 +6,24 @@ formatted_date <- function(x) {
 # Safe NA -> ""
 nz <- function(x) ifelse(is.na(x), "", x)
 
+create_timetable_csv <- function(output_file = "data/AY25-26_sem_1_timetable.csv", 
+                                 excel_sheet = "AY2025-2026 Sem 1",
+                                 excel_path = "data/Seminars.xlsx"){
+  
+  details <- read_excel(path = excel_path, sheet = excel_sheet, skip = 1) |>
+    clean_names() |>
+    filter(!is.na(presenter)) |>
+    mutate(
+      date = as_date(date),
+      date_fancy = map_chr(date, formatted_date)
+    )
+  
+  write_csv(details, file = output_file)
+  
+  print(glue::glue("Finished creating file {output_file} using sheet {excel_sheet}."))
+}
+
+
 create_timetable <- function(seminars_pre){
   seminars <- seminars_pre |>
     select(date, time, week_no, presenter, affiliation,

@@ -46,10 +46,10 @@ jobs:
             any::htmlTable
             any::xtable
 
-      - name: Debug list repo contents
-        run: |
-          pwd
-          ls -R
+      # - name: Debug list repo contents
+      #   run: |
+      #     pwd
+      #     ls -R
       # --- Quarto CLI ---
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
