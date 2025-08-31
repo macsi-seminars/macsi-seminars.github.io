@@ -17,7 +17,7 @@ library(glue)
 library(janitor)
 library(knitr)
 
-source("R/helpers.R")qu
+source("R/helpers.R")
 
 #| echo: false
 #| message: false
