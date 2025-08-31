@@ -1,0 +1,83 @@
+---
+title: "AY 2025-2026 Semester 2 Seminar Schedule"
+execute:
+  echo: false
+  warning: false
+  message: false
+toc-expand: true
+---
+
+```{r}
+library(readxl)
+library(dplyr)
+library(readr)
+library(stringr)
+library(lubridate)
+library(glue)
+library(janitor)
+library(knitr)
+
+source("R/helpers.R")
+
+#| echo: false
+#| message: false
+# library(tidyverse)
+library(htmlTable)
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+# library(knitr)
+# library(kableExtra)
+# Example data
+seminars_pre <- read_csv("./data/AY25-26_sem_2_timetable.csv")
+
+seminars <- seminars_pre |>
+   select(date, time, week_no, presenter, affiliation,
+           departmental_contact, title) |> 
+  rename(
+    Date = date,
+    Time = time, 
+    "Week no." = week_no,
+    Presenter = presenter, 
+    "Affil." = affiliation, 
+    "Dept. Contact" = departmental_contact, 
+    "Title" = title
+      )
+
+# Create the table
+# kable(seminars, format = "html", caption = "Upcoming MACSI Seminars") %>%
+#   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover"))
+library(flextable)
+library(xtable)
+# Create a nicely formatted table with flextable
+seminar_table <- flextable(seminars) |>
+  theme_vanilla() |>    # Apply a clean theme
+  autofit() |>        # Auto-size columns
+  fontsize(size = 11) |> 
+  set_caption("Upcoming MACSI Seminars")
+
+```
+# Timetable
+
+```{r}
+seminar_table <- create_timetable(seminars_pre)
+seminar_table
+```
+
+
+<!-- # Abstracts -->
+
+<!-- As seminar abstracts become available from the speakers this page will be updated.  -->
+
+<!-- --- -->
+
+<!-- ```{r} -->
+<!-- #| results: asis -->
+
+<!-- create_abstracts_text(seminars_pre) -->
+
+<!-- ``` -->

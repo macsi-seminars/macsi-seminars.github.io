@@ -1,0 +1,76 @@
+name: Build & Publish Quarto site
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # --- R setup & packages ---
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::readxl
+            any::dplyr
+            any::purrr
+            any::janitor
+            any::lubridate
+            any::readr
+            any::glue
+            any::quarto
+            any::stringr
+            any::knitr
+            any::flextable
+            any::htmlTable
+            any::xtable
+
+      - name: Debug list repo contents
+        run: |
+          pwd
+          ls -R
+      # --- Quarto CLI ---
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "release"   # or pin like "1.5.57"
+
+      # --- Pre-build data (your step 1) ---
+      - name: Pre-build create timetable CSVs
+        run: Rscript R/build.R
+
+      # --- Render site (your step 2) ---
+      - name: Render Quarto site
+        run: quarto render
+
+      # --- Deploy to GitHub Pages ---
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

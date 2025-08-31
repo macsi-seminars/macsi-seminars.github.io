@@ -1,0 +1,23 @@
+/* Make all images scale to container */
+img { max-width: 100%; height: auto; }
+
+/* Logo/banner: shrink on small screens */
+@media (max-width: 576px) {
+  .site-title { font-size: 1.1rem; }
+  .navbar { padding-top: .25rem; padding-bottom: .25rem; }
+  /* if you inserted a banner partial with an img inside */
+  .banner img, #banner img { max-height: 80px !important; }
+}
+
+/* Flex row for icon links (e.g., PDF / Scholar) */
+.link-row {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;      /* row/col gap: feels like “tabs” */
+  align-items: center;
+}
+
+/* Wrap long code/links instead of overflowing */
+pre, code { white-space: pre-wrap; }
+
+
