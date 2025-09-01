@@ -59,6 +59,9 @@ create_abstracts_text <- function(seminars_pre){
     filter(!(abstract %in% c("TBC","TBA","Friday","")))
   
   for (i in seq_len(nrow(seminars_pre_filterd))) {
+    
+    icon_text <- create_icons_and_links(seminars_pre_filterd, i)
+    
     text <- glue::glue("
 
 ## Seminar week {seminars_pre_filterd$week_no[i]} by {seminars_pre_filterd$presenter[i]}
@@ -71,10 +74,39 @@ create_abstracts_text <- function(seminars_pre){
 
 **Abstract:** {seminars_pre_filterd$abstract[i]}
 
+{icon_text}
+
+
 ---
 
 
 ")
     cat(text)
   }
+}
+
+
+create_icons_and_links <- function(seminars_pre, i){
+  
+  paper_url <- seminars_pre$link_to_paper[i]
+  gs_url <- seminars_pre$google_scholar_profile[i]
+  
+  if(!is.na(paper_url)){
+    paper_icon <- glue::glue('<span class="bi bi-journal-text"></span> [Speaker\'s Paper]({paper_url})')
+  } else {
+    paper_icon <- ""
+  }
+  
+  if(!is.na(gs_url)){
+    gs_icon <- glue::glue('<span class="bi bi-google"></span> [Speaker\'s Google Scholar]({gs_url})')
+  } else {
+    gs_icon <- ""
+  }
+  
+  text <- glue::glue("
+                     {gs_icon} 
+                     
+                     {paper_icon}
+                     ")
+  return(text)
 }
