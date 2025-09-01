@@ -45,6 +45,7 @@ create_timetable <- function(seminars_pre){
     theme_vanilla() |>    # Apply a clean theme
     autofit() |>        # Auto-size columns
     fontsize(size = 11) |> 
+    font(fontname = "Lato", part = "all") |>  
     set_caption("Upcoming MACSI Seminars")
   return(seminar_table)
 }

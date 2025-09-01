@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: _site
 
-metadata-files:
-  - _nav_abstracts.yml
+# metadata-files:
+#   - _nav_abstracts.yml
 
 website:
   title: "MACSI Seminar Series"
