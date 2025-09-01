@@ -8,6 +8,7 @@ project:
 website:
   title: "MACSI Seminar Series"
   site-url: ""
+  favicon: MACSI_small.png
   navbar:
     collapse-below: lg
     left:
