@@ -86,13 +86,36 @@ create_abstracts_text <- function(seminars_pre){
 }
 
 
+split_semicolon_urls <- function(x) {
+  stringr::str_split(x, ";", n = Inf)[[1]] |>
+    stringr::str_trim()
+}
+
+build_paper_icon <- function(url){
+  url <- split_semicolon_urls(url)
+  
+  if(length(url) == 1){
+    text <- glue('<span class="bi bi-journal-text"></span> [Speaker\'s Paper]({url})')
+  } else {
+    text <- ""
+    for(j in seq_along(url)){
+      text <- glue::glue('{text}
+                   <span class="bi bi-journal-text"></span> [Speaker\'s Paper {j}]({url[j]})
+                   ')
+    }
+  }
+  return(text)
+}
+
+
 create_icons_and_links <- function(seminars_pre, i){
   
+
   paper_url <- seminars_pre$link_to_paper[i]
   gs_url <- seminars_pre$google_scholar_profile[i]
   
   if(!is.na(paper_url)){
-    paper_icon <- glue::glue('<span class="bi bi-journal-text"></span> [Speaker\'s Paper]({paper_url})')
+    paper_icon <- build_paper_icon(paper_url)
   } else {
     paper_icon <- ""
   }
