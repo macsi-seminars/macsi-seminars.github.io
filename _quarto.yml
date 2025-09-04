@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: _site
-
+  resources: calendar/
+  
 # metadata-files:
 #   - _nav_abstracts.yml
 

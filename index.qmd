@@ -44,6 +44,10 @@ seminar_table <- create_timetable(seminars_pre)
 seminar_table
 ```
 
+<!-- If you would like add the seminar series to you calendar, you can click the button below.  -->
+<!-- <a class="btn btn-primary" href="webcal://<user>.github.io/<repo>/calendar/teaching.ics"> -->
+<!--   Subscribe (webcal) -->
+<!-- </a> -->
 
 # Abstracts
 

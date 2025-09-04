@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+PRODID:ATFutures/calendar
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ical-48903b5a-53c5-4c7a-9d43-d2e6abea3356
+DTSTART:20250911T110000
+DTEND:20250911T120000
+SUMMARY:MACSI Seminar: Week no 1 given by Hlib Husarov & Eberhard Mayerhofer 
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-11 at 11am \nSpeaker: Hlib Husarov & Eberhard Mayerhofer (Mary Immaculate Secondary School, Lisdoonvarna & University of Limerick) \nHost: Eberhard Mayerhofer \nTitle: An algorithm for the product-sum equality \nAbstract: We propose a recursive algorithm for identifying all finite sequences of positive integers whose product equals their sum. Our method uses solutions of strictly shorter length that are iteratively extended in pursuit of a valid solution. The algorithm is efficient, with a time complexity similar to the quick sort algorithm. Arxiv: https://arxiv.org/abs/2508.09647 \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-21108515-a1de-4ab5-bd2f-f7e7b6b1554e
+DTSTART:20250917T160000
+DTEND:20250917T170000
+SUMMARY:MACSI Seminar: Week no 2 given by Márton Karsai 
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-17 at 4pm \nSpeaker: Márton Karsai (Central European University) \nHost: Padraig McCarron \nTitle: Behaviour-driven epidemic phenomena in heterogeneous populations and networks \nAbstract: While realistic approaches have become increasingly important in epidemic modelling, behavioural factors and individual differences have historically been overlooked due to the lack of high-resolution data and appropriate mathematical methods. This gap became particularly evident during the recent pandemic, highlighting the need for large-scale data collection on individual-level epidemic-related behaviours across representative populations. These advancements have revealed several new and interesting spreading phenomena that challenge our previous understandings. In this talk, we will focus on a few examples of such new insights, derived from data-driven and behaviour-informed epidemic models. We will explore the effects of seeding strategies and input-output inequalities in spreading dynamics, and the paradoxical effects of awareness-driven adaptive behaviour on epidemic outcomes. These findings highlight the importance of data-driven models incorporating behavioural factors, offering a more accurate understanding and modelling of real-world epidemic scenarios. \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-58b31f01-3fa0-4264-a12f-27bceaf617e0
+DTSTART:20250926T150000
+DTEND:20250926T160000
+SUMMARY:MACSI Seminar: Week no 3 given by Nico Gray 
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-26 at 3pm \nSpeaker: Nico Gray (University of Manchester) \nHost: Andrew Fowler \nTitle: Coupling rheology and segregation in granular flows \nAbstract: During the last fifteen years there has been a paradigm shift in the continuum modelling of granular materials; most notably with the development of rheological models, such as the  μ(I)-rheology (where μ is the friction and I is the inertial number), but also with significant advances in theories for particle segregation. This paper details theoretical and numerical frameworks (based on OpenFOAM) which unify these currently disconnected endeavours. Coupling the segregation with the flow, and vice versa, is not only vital for a complete theory of granular materials, but is also beneficial for developing numerical methods to handle evolving free surfaces. This general approach is based on the partially regularized incompressible-rheology, which is coupled to the gravity-driven segregation theory of Gray & Ancey (J. Fluid Mech., vol. 678, 2011, pp. 353-588). These advection-diffusion-segregation equations describe the evolving concentrations of the constituents, which then couple back to the variable viscosity in the incompressible Navier-Stokes equations. A novel feature of this approach is that any number of differently sized phases may be included, which may have disparate frictional properties. Further inclusion of an excess air phase, which segregates away from the granular material, then allows the complex evolution of the free surface to be captured simultaneously. Three primary coupling mechanisms are identified: (i) advection of the particle concentrations by the bulk velocity, (ii) feedback of the particle-size and/or frictional properties on the bulk flow field and (iii) influence of the shear rate, pressure, gravity, particle size and particle-size ratio on the locally evolving segregation and diffusion rates. The numerical method is extensively tested in one-way coupled computations, before the fully coupled model is compared with the discrete element method simulations of Tripathi & Khakhar (Phys. Fluids, vol. 23, 2011, 113302) and used to compute the petal-like segregation pattern that spontaneously develops in a square and triangular rotating drums.
+Particle-size segregation patterns in a partially filled triangular rotating drum.
+E.S.F. Maguire, T. Barker, M. Rauter, C.G. Johnson & J.M.N.T. Gray (2024) J. Fluid Mech 979, A40.   (movie 1) (movie 2) (movie 3) (movie 4) (movie 5) (movie 6) (movie 7) (movie 8) (movie 9) (movie 10) (movie 11) (movie 12) (movie 13) (movie 14) (movie 15) (movie 16) (movie 17) (movie 18) (movie 19)
+
+Coupling rheology and segregation in granular flows
+T. Barker, M. Rauter, E. S. F. Maguire, C. G. Johnson & J. M. N. T. Gray (2021) J. Fluid Mech. 909, A22.   (movie 1) (movie 2) (movie 3) (movie 4) (movie 5) (movie 6)
+
+An experimental scaling law for particle-size segregation in dense granular flows
+T. Trewhela, C. Ancey & J. M. N. T. Gray (2021) J. Fluid Mech. 916, A55.   (movie 1) (movie 2)
+
+Particle Segregation in Dense Granular Flows
+J. M. N. T. Gray (2018) Ann. Rev. Fluid Mech. 50, 407--433.   (movies)
+
+Partial regularisation of the incompressible μ(I)-rheology for granular flow
+T. Barker & J. M. N. T. Gray (2017) J. Fluid Mech. 828, 5--32.   (movies) \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-d0141669-b412-48b1-bdef-03fec22b2739
+DTSTART:20251009T110000
+DTEND:20251009T120000
+SUMMARY:MACSI Seminar: Week no 5 given by Lisa McFetridge 
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-09 at 11am \nSpeaker: Lisa McFetridge (Queen's University Belfast) \nHost: Shirin Moghaddam \nTitle: Advances in Robust Mixed Effects Modelling \nAbstract: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-3cd59d55-8d29-447b-9cd6-78a8918ef95d
+DTSTART:20251016T110000
+DTEND:20251016T120000
+SUMMARY:MACSI Seminar: Week no 6 given by Dingjia Cao 
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-16 at 11am \nSpeaker: Dingjia Cao (University of Limerick) \nHost: James Sweeney \nTitle: A wavelet lifting approach for spatial/network data \nAbstract: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-d826ed4e-6342-4fc6-8f14-ba221f4fd341
+DTSTART:20251023T110000
+DTEND:20251023T120000
+SUMMARY:MACSI Seminar: Week no 7 given by Theresa Smith 
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-23 at 11am \nSpeaker: Theresa Smith (University of Bath) \nHost: James Sweeney \nTitle: TBC \nAbstract: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-28347f92-ad75-4b41-9963-7747610c1a7d
+DTSTART:20251106T110000
+DTEND:20251106T120000
+SUMMARY:MACSI Seminar: Week no 9 given by Yanghong Huang 
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-06 at 11am \nSpeaker: Yanghong Huang (University of Manchester) \nHost: Mehakpreet Singh \nTitle: TBC \nAbstract: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-d9af3d85-d4e7-4695-b5ff-6de34ba21305
+DTSTART:20251113T110000
+DTEND:20251113T120000
+SUMMARY:MACSI Seminar: Week no 10 given by Lea Kaufmann 
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-13 at 11am \nSpeaker: Lea Kaufmann (RWTH Aachen University) \nHost: Kevin Burke \nTitle: Factor Selection and Levels Fusion in High-Dimensional Logistic Regression \nAbstract: In the last decades, high-dimensional problems in a regression-type context including a large number of explanatory variables arise in a huge variety of application fields. Specifically considering categorical explanatory variables, i.e., factors, the dummy-coding scheme introduces one (dummy) variable for each factor level, thus the dimension of the parameter space grows rapidly, even for a moderate number of factors. To simultaneously obtain the estimates of the regression coefficients and reducing the dimension of the parameter space, penalized regression is known to be a suitable tool. In this talk, I will discuss the characteristics that a penalization technique needs to fulfil to be suitable for the application to factors, as it is not only important to select those having an influence on the response variable (factor selection), but also to fuse those levels of a factor having a similar influence (levels fusion). A new penalization technique, called L0-Fused Group Lasso (L0-FGL), is introduced, tailored for the needs of factors. The quality of this new method is underlined by its theoretical properties, e.g.,  root-n-consistency and asymptotic normality, as well as by its performance in simulation studies. \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-49e140ea-be5c-4171-a125-a5e9f11efe8e
+DTSTART:20251120T110000
+DTEND:20251120T120000
+SUMMARY:MACSI Seminar: Week no 11 given by Alison O'Connor 
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-20 at 11am \nSpeaker: Alison O'Connor (University of Limerick) \nHost: David O'Sullivan \nTitle: TBC \nAbstract: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-652f9412-3d8c-4583-b8d0-b05a45ddfbd3
+DTSTART:20251204T110000
+DTEND:20251204T120000
+SUMMARY:MACSI Seminar: Week no 13 given by Silvia D'Angelo 
+DESCRIPTION:MACSI seminar details\nDate: 2025-12-04 at 11am \nSpeaker: Silvia D'Angelo (Trinity College Dublin) \nHost: David O'Sullivan \nTitle: Clustering high-dimensional discrete data: a compressed approach \nAbstract: Custering high-dimensional data is a challenging task, typically addressed in the context of continuous numerical data. Recent literature is exploring strategies to cluster high-dimensional categorical and discrete data, which finds numerous applications, such as RNA sequencing and text data analysis. We propose a fast and easy-to-implement approach to cluster high-dimensional discrete data, scalable to datasets with thousands of dimensions where other strategies may be computationally unfeasible. Our approach relies on reducing the dimension of the data by performing a deterministic compression to a drastically lower dimension. The method employs a lossy compression that reduces the data to a collection of continuous features.
+We demonstrate that such compressed features can be treated as approximately normally distributed, allowing the application of standard finite Gaussian mixture models for model-based clustering. We discuss the approach and study its performance on a series of simulated scenarios with different dimensions and levels of complexity, involving both categorical and count data. Additionally, we illustrate the method on real-world data. \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+END:VEVENT
+END:VCALENDAR
