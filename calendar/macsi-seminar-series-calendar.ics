@@ -4,73 +4,102 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:ical-dc2f3745-b1cd-47fb-bdd3-890ab360b4a3
+UID:ical-df670bd3-0ff3-4b34-a445-3cefae9a161e
 DTSTART:20250911T110000
 DTEND:20250911T120000
 SUMMARY:MACSI Seminar: Week no 1 given by Hlib Husarov & Eberhard Mayerhofer 
-DESCRIPTION:MACSI seminar details\nDate: 2025-09-11 at 11am \nSpeaker: Hlib Husarov & Eberhard Mayerhofer (Mary Immaculate Secondary School, Lisdoonvarna & University of Limerick) \nHost: Eberhard Mayerhofer \nTitle: An algorithm for the product-sum equality \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-11 at 11am \nSpeaker: Hlib Husarov
+  & Eberhard Mayerhofer (Mary Immaculate Secondary School, Lisdoonvarna &
+  University of Limerick) \nHost: Eberhard Mayerhofer \nTitle: An algorithm
+  for the product-sum equality \nFor full seminar schedule and abstracts:
+  https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-7ee5e411-5881-430c-9aae-171b3140c6fa
+UID:ical-0b609bc5-b0ae-4f17-9ea8-d1f413b480cb
 DTSTART:20250917T160000
 DTEND:20250917T170000
 SUMMARY:MACSI Seminar: Week no 2 given by Márton Karsai 
-DESCRIPTION:MACSI seminar details\nDate: 2025-09-17 at 4pm \nSpeaker: Márton Karsai (Central European University) \nHost: Padraig McCarron \nTitle: Behaviour-driven epidemic phenomena in heterogeneous populations and networks \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-17 at 4pm \nSpeaker: Márton
+  Karsai (Central European University) \nHost: Padraig McCarron
+  \nTitle: Behaviour-driven epidemic phenomena in heterogeneous
+  populations and networks \nFor full seminar schedule and abstracts:
+  https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-119a34d4-f078-4306-8161-1bf7a9be3c98
+UID:ical-568f98e9-ce68-4a24-9594-87659077d9d3
 DTSTART:20250926T150000
 DTEND:20250926T160000
 SUMMARY:MACSI Seminar: Week no 3 given by Nico Gray 
-DESCRIPTION:MACSI seminar details\nDate: 2025-09-26 at 3pm \nSpeaker: Nico Gray (University of Manchester) \nHost: Andrew Fowler \nTitle: Coupling rheology and segregation in granular flows \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-09-26 at 3pm \nSpeaker: Nico Gray
+  (University of Manchester) \nHost: Andrew Fowler \nTitle: Coupling
+  rheology and segregation in granular flows \nFor full seminar schedule and
+  abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-5f6b8563-5308-4b6c-8b50-5319afbe5853
+UID:ical-7aabf78b-4909-4399-a851-1a095674b19c
 DTSTART:20251009T110000
 DTEND:20251009T120000
 SUMMARY:MACSI Seminar: Week no 5 given by Lisa McFetridge 
-DESCRIPTION:MACSI seminar details\nDate: 2025-10-09 at 11am \nSpeaker: Lisa McFetridge (Queen's University Belfast) \nHost: Shirin Moghaddam \nTitle: Advances in Robust Mixed Effects Modelling \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-09 at 11am \nSpeaker: Lisa McFetridge
+  (Queen's University Belfast) \nHost: Shirin Moghaddam \nTitle: Advances in
+  Robust Mixed Effects Modelling \nFor full seminar schedule and abstracts:
+  https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-574fdfb9-5a2f-4b94-8f89-18c0ea521a02
+UID:ical-a074a5ab-c4fe-4ae2-974e-cee4fce1f253
 DTSTART:20251016T110000
 DTEND:20251016T120000
 SUMMARY:MACSI Seminar: Week no 6 given by Dingjia Cao 
-DESCRIPTION:MACSI seminar details\nDate: 2025-10-16 at 11am \nSpeaker: Dingjia Cao (University of Limerick) \nHost: James Sweeney \nTitle: A wavelet lifting approach for spatial/network data \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-16 at 11am \nSpeaker: Dingjia
+  Cao (University of Limerick) \nHost: James Sweeney \nTitle: A wavelet
+  lifting approach for spatial/network data \nFor full seminar schedule and
+  abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-7e093b1e-2e2c-434e-81e2-f2080ad304e3
+UID:ical-187a21d9-cdb5-408e-96fc-21799a3f6444
 DTSTART:20251023T110000
 DTEND:20251023T120000
 SUMMARY:MACSI Seminar: Week no 7 given by Theresa Smith 
-DESCRIPTION:MACSI seminar details\nDate: 2025-10-23 at 11am \nSpeaker: Theresa Smith (University of Bath) \nHost: James Sweeney \nTitle: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-10-23 at 11am \nSpeaker: Theresa Smith
+  (University of Bath) \nHost: James Sweeney \nTitle: TBC \nFor full seminar
+  schedule and abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-793aa8ab-d0a7-474f-b55f-06ff1aadc13a
+UID:ical-fdd33b02-908e-4e2c-8bb8-d696eacaada3
 DTSTART:20251106T110000
 DTEND:20251106T120000
 SUMMARY:MACSI Seminar: Week no 9 given by Yanghong Huang 
-DESCRIPTION:MACSI seminar details\nDate: 2025-11-06 at 11am \nSpeaker: Yanghong Huang (University of Manchester) \nHost: Mehakpreet Singh \nTitle: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-06 at 11am \nSpeaker: Yanghong Huang
+  (University of Manchester) \nHost: Mehakpreet Singh \nTitle: TBC \nFor
+  full seminar schedule and abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-36dd1203-b79d-420c-a1ea-6c2aa8c0f9f5
+UID:ical-4f495188-ed5f-4630-a0d9-05a517cd79a4
 DTSTART:20251113T110000
 DTEND:20251113T120000
 SUMMARY:MACSI Seminar: Week no 10 given by Lea Kaufmann 
-DESCRIPTION:MACSI seminar details\nDate: 2025-11-13 at 11am \nSpeaker: Lea Kaufmann (RWTH Aachen University) \nHost: Kevin Burke \nTitle: Factor Selection and Levels Fusion in High-Dimensional Logistic Regression \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-13 at 11am \nSpeaker: Lea Kaufmann
+  (RWTH Aachen University) \nHost: Kevin Burke \nTitle: Factor Selection and
+  Levels Fusion in High-Dimensional Logistic Regression \nFor full seminar
+  schedule and abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-d16938b5-673f-488b-ba15-7e5195e712b0
+UID:ical-96a4a5ef-c387-417d-b6f4-658c06032010
 DTSTART:20251120T110000
 DTEND:20251120T120000
 SUMMARY:MACSI Seminar: Week no 11 given by Alison O'Connor 
-DESCRIPTION:MACSI seminar details\nDate: 2025-11-20 at 11am \nSpeaker: Alison O'Connor (University of Limerick) \nHost: David O'Sullivan \nTitle: TBC \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-11-20 at 11am \nSpeaker: Alison O'Connor
+  (University of Limerick) \nHost: David O'Sullivan \nTitle: TBC \nFor full
+  seminar schedule and abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-0b7200a6-bcb3-4fb1-a83e-d66a7347edbb
+UID:ical-6a115225-728e-4543-9684-b408fb79fd94
 DTSTART:20251204T110000
 DTEND:20251204T120000
 SUMMARY:MACSI Seminar: Week no 13 given by Silvia D'Angelo 
-DESCRIPTION:MACSI seminar details\nDate: 2025-12-04 at 11am \nSpeaker: Silvia D'Angelo (Trinity College Dublin) \nHost: David O'Sullivan \nTitle: Clustering high-dimensional discrete data: a compressed approach \nFor full seminar schedule and abstracts: https://macsi-seminars.github.io/
+DESCRIPTION:MACSI seminar details\nDate: 2025-12-04 at 11am \nSpeaker: Silvia D'Angelo
+  (Trinity College Dublin) \nHost: David O'Sullivan \nTitle: Clustering
+  high-dimensional discrete data: a compressed approach \nFor full seminar
+  schedule and abstracts: https://macsi-seminars.github.io/
 END:VEVENT
 END:VCALENDAR
