@@ -1,96 +1,107 @@
 BEGIN:VCALENDAR
-PRODID:ATFutures/calendar
 VERSION:2.0
+PRODID:-//MACSI Seminar Series//AY25-26 Semester 1//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:ical-4670584e-702c-4b3e-b12a-461549ef5fe5
-DTSTART:20250911T110000
-DTEND:20250911T120000
-SUMMARY:MACSI Seminar: Week no 1 given by Hlib
- Husarov & Eberhard Mayerhofer
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 1 given by Hlib Husarov & Eberhard Mayerhof
+ er
+DTSTART;TZID=Europe/Dublin:20250911T110000
+DTEND;TZID=Europe/Dublin:20250911T120000
+DTSTAMP:20250904T204425Z
+UID:afb32f28-5c9e-5377-981a-70878bdc2131
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-673a9fa2-5478-463f-9f22-51d6ace96f45
-DTSTART:20250917T160000
-DTEND:20250917T170000
-SUMMARY:MACSI Seminar: Week no 2 given by Márton
- Karsai
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 2 given by Márton Karsai
+DTSTART;TZID=Europe/Dublin:20250917T160000
+DTEND;TZID=Europe/Dublin:20250917T170000
+DTSTAMP:20250904T204425Z
+UID:e59fd382-75d6-5ef0-9da2-2563da9acdfb
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-c87b8fa5-4375-4e69-8fa3-e3a3b118acd7
-DTSTART:20250926T150000
-DTEND:20250926T160000
-SUMMARY:MACSI Seminar: Week no 3 given by Nico
- Gray
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 3 given by Nico Gray
+DTSTART;TZID=Europe/Dublin:20250926T150000
+DTEND;TZID=Europe/Dublin:20250926T160000
+DTSTAMP:20250904T204425Z
+UID:d40a342c-af5f-5759-809b-a6628bac47c1
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-3af59259-1a11-404c-b980-747abb4b705f
-DTSTART:20251009T110000
-DTEND:20251009T120000
-SUMMARY:MACSI Seminar: Week no 5 given by Lisa
- McFetridge
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 5 given by Lisa McFetridge
+DTSTART;TZID=Europe/Dublin:20251009T110000
+DTEND;TZID=Europe/Dublin:20251009T120000
+DTSTAMP:20250904T204425Z
+UID:76460d75-f805-5c99-8344-73f6852518f0
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-ab0d25df-d9bb-4ed1-9f51-0c3c2ead41c8
-DTSTART:20251016T110000
-DTEND:20251016T120000
-SUMMARY:MACSI Seminar: Week no 6 given by
- Dingjia Cao
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 6 given by Dingjia Cao
+DTSTART;TZID=Europe/Dublin:20251016T110000
+DTEND;TZID=Europe/Dublin:20251016T120000
+DTSTAMP:20250904T204425Z
+UID:692cf916-3654-5a9d-9ada-b19bb53359db
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-6a9b8d7b-4a85-416c-aa3b-b89236e01954
-DTSTART:20251023T110000
-DTEND:20251023T120000
-SUMMARY:MACSI Seminar: Week no 7 given by
- Theresa Smith
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 7 given by Theresa Smith
+DTSTART;TZID=Europe/Dublin:20251023T110000
+DTEND;TZID=Europe/Dublin:20251023T120000
+DTSTAMP:20250904T204425Z
+UID:7886ee78-79bd-5a14-ac64-a040c3784746
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-4912f9d1-79f2-4422-9f4e-4b3f48c9ad41
-DTSTART:20251106T110000
-DTEND:20251106T120000
-SUMMARY:MACSI Seminar: Week no 9 given by
- Yanghong Huang
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 9 given by Yanghong Huang
+DTSTART;TZID=Europe/Dublin:20251106T110000
+DTEND;TZID=Europe/Dublin:20251106T120000
+DTSTAMP:20250904T204425Z
+UID:d4ab2dbb-6f5b-50c3-9d5d-cff7763dfc82
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-49dfc5e6-568d-45e5-8312-6d5d9047090a
-DTSTART:20251113T110000
-DTEND:20251113T120000
-SUMMARY:MACSI Seminar: Week no 10 given by Lea
- Kaufmann
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 10 given by Lea Kaufmann
+DTSTART;TZID=Europe/Dublin:20251113T110000
+DTEND;TZID=Europe/Dublin:20251113T120000
+DTSTAMP:20250904T204425Z
+UID:715abdac-b576-567d-9309-114c2c9d8867
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-150fa631-0954-4c34-a953-f4231cfae0f7
-DTSTART:20251120T110000
-DTEND:20251120T120000
-SUMMARY:MACSI Seminar: Week no 11 given by
- Alison O'Connor
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 11 given by Alison O'Connor
+DTSTART;TZID=Europe/Dublin:20251120T110000
+DTEND;TZID=Europe/Dublin:20251120T120000
+DTSTAMP:20250904T204425Z
+UID:6530d0d7-83de-5d1e-9e00-2e680a6ae98f
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-aabcc0f2-76d1-48b3-9c9e-6249663d6834
-DTSTART:20251204T110000
-DTEND:20251204T120000
-SUMMARY:MACSI Seminar: Week no 13 given by
- Silvia D'Angelo
-DESCRIPTION:See seminar schedule and abstracts at
- https://macsi-seminars.github.io/
+SUMMARY:MACSI Seminar: Week no 13 given by Silvia D'Angelo
+DTSTART;TZID=Europe/Dublin:20251204T110000
+DTEND;TZID=Europe/Dublin:20251204T120000
+DTSTAMP:20250904T204425Z
+UID:e92d007b-6560-5d35-98a4-e1ab2e41f759
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
+ ithub.io/
+URL:https://macsi-seminars.github.io/
 END:VEVENT
 END:VCALENDAR
