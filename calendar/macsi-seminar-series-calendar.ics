@@ -8,7 +8,7 @@ SUMMARY:MACSI Seminar: Week no 1 given by Hlib Husarov & Eberhard Mayerhof
  er
 DTSTART;TZID=Europe/Dublin:20250911T110000
 DTEND;TZID=Europe/Dublin:20250911T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:afb32f28-5c9e-5377-981a-70878bdc2131
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -18,7 +18,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 2 given by Márton Karsai
 DTSTART;TZID=Europe/Dublin:20250917T160000
 DTEND;TZID=Europe/Dublin:20250917T170000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:e59fd382-75d6-5ef0-9da2-2563da9acdfb
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 3 given by Nico Gray
 DTSTART;TZID=Europe/Dublin:20250926T150000
 DTEND;TZID=Europe/Dublin:20250926T160000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:d40a342c-af5f-5759-809b-a6628bac47c1
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 5 given by Lisa McFetridge
 DTSTART;TZID=Europe/Dublin:20251009T110000
 DTEND;TZID=Europe/Dublin:20251009T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:76460d75-f805-5c99-8344-73f6852518f0
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -48,7 +48,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 6 given by Dingjia Cao
 DTSTART;TZID=Europe/Dublin:20251016T110000
 DTEND;TZID=Europe/Dublin:20251016T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:692cf916-3654-5a9d-9ada-b19bb53359db
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -58,7 +58,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 7 given by Theresa Smith
 DTSTART;TZID=Europe/Dublin:20251023T110000
 DTEND;TZID=Europe/Dublin:20251023T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:7886ee78-79bd-5a14-ac64-a040c3784746
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 9 given by Yanghong Huang
 DTSTART;TZID=Europe/Dublin:20251106T110000
 DTEND;TZID=Europe/Dublin:20251106T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:d4ab2dbb-6f5b-50c3-9d5d-cff7763dfc82
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -78,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 10 given by Lea Kaufmann
 DTSTART;TZID=Europe/Dublin:20251113T110000
 DTEND;TZID=Europe/Dublin:20251113T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:715abdac-b576-567d-9309-114c2c9d8867
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 11 given by Alison O'Connor
 DTSTART;TZID=Europe/Dublin:20251120T110000
 DTEND;TZID=Europe/Dublin:20251120T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:6530d0d7-83de-5d1e-9e00-2e680a6ae98f
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:MACSI Seminar: Week no 13 given by Silvia D'Angelo
 DTSTART;TZID=Europe/Dublin:20251204T110000
 DTEND;TZID=Europe/Dublin:20251204T120000
-DTSTAMP:20250904T204425Z
+DTSTAMP:20250904T205657Z
 UID:e92d007b-6560-5d35-98a4-e1ab2e41f759
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.g
  ithub.io/
