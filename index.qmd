@@ -44,8 +44,10 @@ seminar_table <- create_timetable(seminars_pre)
 seminar_table
 ```
 
-<!-- If you would like add the seminar series to you calendar, you can click the button below.  -->
-<!-- <a class="btn btn-primary" href="webcal://<user>.github.io/<repo>/calendar/teaching.ics"> -->
+<!-- If you would like add the seminar series to you calendar, you can click the button below, select outlook and name the subscribed calendar something like "MACSI Seminar Series". Any changes changes to the seminar schedule should be reflected in this calendar.  -->
+
+
+<!-- <a class="btn btn-primary" href="webcal:https://macsi-seminars.github.io/calendar/macsi-seminar-series.ics"> -->
 <!--   Subscribe (webcal) -->
 <!-- </a> -->
 
