@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: _site
-  resources: calendar/
-  
-# metadata-files:
-#   - _nav_abstracts.yml
+  render:
+    - "*.qmd"
+    - "!emails/*"
+  resources:
+    - calendar/
+    # - emails/
 
 website:
   title: "MACSI Seminar Series"

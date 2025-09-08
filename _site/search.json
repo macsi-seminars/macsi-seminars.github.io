@@ -245,6 +245,13 @@
     "text": "Seminar week 19 by Laura Keane\nDate: 2024-08-01 at 12pm\nSpeaker: Laura Keane (NA)\nHost: Doireann O’Kiely\nTitle: Simulation and analysis of double charge layers in electrolyte models for Lithium-ion batteries\nAbstract: Rechargeable batteries such as Lithium-ion batteries (LIBs) are becoming widespread in our society as a means of powering devices. Mathematical modelling can be a valuable tool for gaining insight into observed behaviours and in aiding battery testing as we increase our dependence on these LIBs. Double charge layers are narrow boundary regions between the two main components of a battery: the electrode and the electrolyte. The behaviour in these regions can differ from that observed in the bulk due to the reactions occurring and the transfer of ions at the interfaces. Historically, there has been considerably more investigation and modelling regarding liquid electrolytes and their double charge layers in comparison with the less established solid electrolyte. Solid state electrolytes are becomingly increasingly attractive due to their improved safety, lower self-discharge, and higher power densities over the more commonly used liquid electrolyte. We use mathematical modelling techniques such as numerical simulation and asymptotic analysis to gain a deeper understanding of what is happening in these layers, with a particular emphasis on solid electrolytes and elucidating the differences between liquid and solid electrolyte double charge layers. We consider a model for a solid electrolyte derived under thermodynamics principles in zero charge flux equilibrium and isothermal conditions. We use an auxiliary variable to transform from a finite domain to an infinite domain to avoid numerical artifacts of near singularities and to facilitate robust numerical simulations. We use asymptotic techniques to characterize the true width of the boundary layer of the electrolyte. We find that the asymptotic matching between the different regions is non-standard, and we therefore implement a pseudo matching technique to complete our asymptotic solution. From the asymptotics, we identify both strong and weak space charge layers (SCL). The weak SCL layer is characterised by a length which is equivalent to the Debye length of a standard liquid electrolyte. The strong SCL layer is characterised by a scaled Debye length. We identify these length scales formally from the asymptotic reduction of the model allowing a quantifiable measure of SCL widths."
   },
   {
+    "objectID": "calendar/download_seminar_schedule.html#difference-between-download-and-subscribe",
+    "href": "calendar/download_seminar_schedule.html#difference-between-download-and-subscribe",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Difference between “download” and “subscribe”",
+    "text": "Difference between “download” and “subscribe”\nDownload is a one-off import of the fixtures. If the fixtures change, you will need to download the calendar file again to update your data. If you subscribe to the calendar feed, your calendar application will sync the fixture dates and kick-off times automatically without the need for a manual update so you will always have the latest information.\n\n\n\n\n\nDownload or subscribe to fixtures.\n\n\nFixtures\nSubscribe\nDownload\n\n\n\n\nURC\nCopy\nDownload\n\n\nChampions Cup\nCopy\nDownload"
+  },
+  {
     "objectID": "create_AY24-25_sem_1_timetable.html#seminar-week-1-by-nastaran-sharifian",
     "href": "create_AY24-25_sem_1_timetable.html#seminar-week-1-by-nastaran-sharifian",
     "title": "AY 2024-2025 Semester 1 Seminar Schedule",
@@ -313,5 +320,40 @@
     "title": "AY 2025-2026 Semester 2 Seminar Schedule",
     "section": "",
     "text": "Timetable\n\n\nDateTimeWeek no.PresenterAffil.Dept. ContactTitle2026-01-2911am1OpenTBCTBCTBC2026-02-1211am3OpenTBCTBCTBC2026-02-2611am5OpenTBCTBCTBC2026-03-1211am7OpenTBCTBCTBC2026-03-2611am9OpenTBCTBCTBC2026-04-0911am11OpenTBCTBCTBC2026-04-2311am13OpenTBCTBCTBC"
+  },
+  {
+    "objectID": "calendar/download_seminar_schedule.html#outlook-2010",
+    "href": "calendar/download_seminar_schedule.html#outlook-2010",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Outlook 2010",
+    "text": "Outlook 2010\n\nSubscribe to a Calendar\n\nClick Calendars (bottom left of the screen)\nClick Open Calendar (top menu)\nChoose From Internet\nEnter the URL and click OK (URL is provided near the top of this page)\nClick Yes to agree\n\n\n\nImport a Downloaded Calendar\n\nDownload the .ics file (link provided near the top of this page)\nClick File\nClick Open\nClick Open Calendar\nBrowse and select the .ics file"
+  },
+  {
+    "objectID": "calendar/download_seminar_schedule.html#outlook-2007",
+    "href": "calendar/download_seminar_schedule.html#outlook-2007",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Outlook 2007",
+    "text": "Outlook 2007\n\nImport a Downloaded Calendar\n\nDownload the .ics file (link provided near the top of this page)\nGo to File &gt; Import\nChoose Import an iCalendar or vCalendar file\nSelect the downloaded .ics file\n\n\n\nSubscribe to a Calendar\n\nGo to Tools &gt; Account Settings\nChoose the Internet Calendars tab\nClick New…\nPaste the URL into the Location field\nClick Add"
+  },
+  {
+    "objectID": "calendar/download_seminar_schedule.html#outlook.com",
+    "href": "calendar/download_seminar_schedule.html#outlook.com",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Outlook.com",
+    "text": "Outlook.com\n\nSubscribe to a Calendar\n\nSign in to Outlook.com\nAt the bottom of the navigation pane, select Calendar\nOn the toolbar, select Add calendar &gt; From internet\nIn the Link to the calendar box, paste the calendar URL\nIn the Calendar name box, type a name for the linked calendar\nSelect Save"
+  },
+  {
+    "objectID": "calendar/download_seminar_schedule.html#gmail-google-calendar",
+    "href": "calendar/download_seminar_schedule.html#gmail-google-calendar",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Gmail (Google Calendar)",
+    "text": "Gmail (Google Calendar)\n\nImport a Downloaded Calendar\n\nLog in to your Google Calendar\nDownload the .ics file (link provided near the top of this page)\nClick the gear icon &gt; Settings\nSelect Import & export\nClick Select file from your computer and choose the .ics file\nSelect the calendar you want to import to\nClick Import"
+  },
+  {
+    "objectID": "calendar/download_seminar_schedule.html#calendar-on-mac-apple-calendar",
+    "href": "calendar/download_seminar_schedule.html#calendar-on-mac-apple-calendar",
+    "title": "How to Import or Subscribe to a Calendar",
+    "section": "Calendar on Mac (Apple Calendar)",
+    "text": "Calendar on Mac (Apple Calendar)\n\nSubscribe to a Calendar\n\nOpen Calendar\nGo to File &gt; New Calendar Subscription\nEnter the calendar URL\nClick Subscribe\n\n\n\nImport a Downloaded Calendar\n\nDownload the .ics file (link provided near the top of this page)\nOpen it — a pop-up will appear\nSelect the calendar to import into (or create a new one)\nClick OK"
   }
 ]

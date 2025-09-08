@@ -51,6 +51,8 @@ seminar_table
 <!--   Subscribe (webcal) -->
 <!-- </a> -->
 
+<!-- <a href="/fixtures-results/downloadable-fixtures/" target="_blank" title="Download the Fixture List Here"> <span class="fix-cal-text"> Add to Calendar</span><span class="fix-cal-icon"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i></span></a> -->
+
 # Abstracts
 
 As seminar abstracts become available from the speakers this page will be updated. 

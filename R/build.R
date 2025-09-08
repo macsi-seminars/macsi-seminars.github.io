@@ -1,15 +1,6 @@
 # R/build.R
 # Run on CI before rendering the site
 
-library(readxl)
-library(dplyr)
-library(purrr)
-library(janitor)
-library(lubridate)
-library(readr)
-library(glue)
-library(quarto)
-
 source("R/helpers.R")
 
 # data for this current sem  -----------------------------------------------------------

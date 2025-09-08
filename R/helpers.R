@@ -1,6 +1,38 @@
-formatted_date <- function(x) {
-  x <- as.Date(x)
-  format(x, "%a %d %b %Y")
+
+
+library(readxl)
+library(dplyr)
+library(purrr)
+library(janitor)
+library(lubridate)
+library(readr)
+library(glue)
+library(quarto)
+
+
+# Define a custom function to add ordinal suffix to days
+add_ordinal_suffix <- function(day) {
+  if (day %% 10 == 1 && day %% 100 != 11) {
+    return(paste0(day, "st"))
+  } else if (day %% 10 == 2 && day %% 100 != 12) {
+    return(paste0(day, "nd"))
+  } else if (day %% 10 == 3 && day %% 100 != 13) {
+    return(paste0(day, "rd"))
+  } else {
+    return(paste0(day, "th"))
+  }
+}
+
+# Function to format dates in a custom format
+formatted_date <- function(date) {
+  paste0(
+    weekdays(date), " the ", 
+    add_ordinal_suffix(day(date)), 
+    " of ", 
+    month(date, label = TRUE, abbr = FALSE), 
+    " ", 
+    year(date)
+  )
 }
 
 # Safe NA -> ""

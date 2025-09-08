@@ -54,7 +54,8 @@ seminars <- seminars_pre |>
 library(flextable)
 library(xtable)
 # Create a nicely formatted table with flextable
-seminar_table <- flextable(seminars) |>
+seminar_table <- 
+  flextable(seminars) |>
   theme_vanilla() |>    # Apply a clean theme
   autofit() |>        # Auto-size columns
   fontsize(size = 11) |> 
