@@ -43,8 +43,7 @@ jobs:
             any::stringr
             any::knitr
             any::flextable
-            any::htmlTable
-            any::xtable
+            any::calendar
 
       # - name: Debug list repo contents
       #   run: |
