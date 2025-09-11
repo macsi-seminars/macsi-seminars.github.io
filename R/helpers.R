@@ -186,7 +186,7 @@ create_icons_and_links <- function(seminars_pre, i){
 # create ics file for website ---------------------------------------------
 
 # read in the seminar series csv and build the events for a calendar.
-create_ics_seminar_series(csv_path, ics_out){
+create_ics_seminar_series <- function(csv_path, ics_out){
   df <- read_csv(csv_path, show_col_types = FALSE)
   events <- df |>
     rowwise() |>
