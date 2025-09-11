@@ -1,3 +1,11 @@
+###########################################################################
+## Project: MACSI Seminar webpage
+## Script purpose: helper function and packages
+## Author: David JP O'Sullivan
+###########################################################################
+
+
+# load packages -----------------------------------------------------------
 
 
 library(readxl)
@@ -12,6 +20,7 @@ library(stringr)
 library(calendar)
 
 
+# general functions -------------------------------------------------------
 
 # Define a custom function to add ordinal suffix to days
 add_ordinal_suffix <- function(day) {
@@ -41,6 +50,7 @@ formatted_date <- function(date) {
 # Safe NA -> ""
 nz <- function(x) ifelse(is.na(x), "", x)
 
+# create each pages csv from the excel spread sheet
 create_timetable_csv <- function(output_file = "data/AY25-26_sem_1_timetable.csv", 
                                  excel_sheet = "AY2025-2026 Sem 1",
                                  excel_path = "data/Seminars.xlsx"){
@@ -58,7 +68,7 @@ create_timetable_csv <- function(output_file = "data/AY25-26_sem_1_timetable.csv
   print(glue::glue("Finished creating file {output_file} using sheet {excel_sheet}."))
 }
 
-
+# from a data frame create the timetable
 create_timetable <- function(seminars_pre){
   seminars <- seminars_pre |>
     select(date, time, week_no, presenter, affiliation,
@@ -85,7 +95,7 @@ create_timetable <- function(seminars_pre){
   return(seminar_table)
 }
 
-
+# from a data frame create the abstract text
 create_abstracts_text <- function(seminars_pre){
   
   seminars_pre_filterd <- 
@@ -121,11 +131,15 @@ create_abstracts_text <- function(seminars_pre){
 }
 
 
+# create the icon for abstracts -------------------------------------------
+
+# if multiple url are present split on ";"
 split_semicolon_urls <- function(x) {
   stringr::str_split(x, ";", n = Inf)[[1]] |>
     stringr::str_trim()
 }
 
+# from a single cell of url build the icons
 build_paper_icon <- function(url){
   url <- split_semicolon_urls(url)
   
@@ -142,10 +156,9 @@ build_paper_icon <- function(url){
   return(text)
 }
 
-
+# for all icon we want to build create the text.
 create_icons_and_links <- function(seminars_pre, i){
   
-
   paper_url <- seminars_pre$link_to_paper[i]
   gs_url <- seminars_pre$google_scholar_profile[i]
   
@@ -167,4 +180,37 @@ create_icons_and_links <- function(seminars_pre, i){
                      {paper_icon}
                      ")
   return(text)
+}
+
+
+# create ics file for website ---------------------------------------------
+
+# read in the seminar series csv and build the events for a calendar.
+create_ics_seminar_series(csv_path, ics_out){
+  df <- read_csv(csv_path, show_col_types = FALSE)
+  events <- df |>
+    rowwise() |>
+    mutate(
+      start_time = lubridate::ymd_h(
+        glue::glue("{date} {time}"), tz = "Europe/Dublin"
+      ),
+      end_time = start_time + hours(1),
+      summary = str_squish(glue::glue(
+        "MACSI Seminar: Week no {week_no} given by {presenter}"
+      )),
+      description = str_squish(
+        "See seminar schedule and abstracts at https://macsi-seminars.github.io/"
+      ),
+      ev = ic_event(
+        start_time = start_time,
+        end_time = end_time,
+        summary = summary
+      )
+    ) |>
+    ungroup()
+  
+  ics <- events$ev
+  ics <- ics |> mutate(DESCRIPTION = events$description)
+  ical(ics) |> ic_write(file = ics_out)
+  cat("Wrote floating-time ICS to:", ics_out, "\n")
 }
