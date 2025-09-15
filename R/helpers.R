@@ -71,10 +71,11 @@ create_timetable_csv <- function(output_file = "data/AY25-26_sem_1_timetable.csv
 # from a data frame create the timetable
 create_timetable <- function(seminars_pre){
   seminars <- seminars_pre |>
-    select(date, time, week_no, presenter, affiliation,
+    select(date,day_of_week, time, week_no, presenter, affiliation,
            departmental_contact, title) |> 
     rename(
       Date = date,
+      "Day" = day_of_week,
       Time = time, 
       "Week no." = week_no,
       Presenter = presenter, 
