@@ -17,6 +17,8 @@ library(glue)
 library(quarto)
 library(stringr)
 library(calendar)
+library(flextable)
+
 
 
 # general functions -------------------------------------------------------
@@ -83,8 +85,6 @@ create_timetable <- function(seminars_pre){
       "Title" = title
     )
   
-  library(flextable)
-  library(xtable)
   # Create a nicely formatted table with flextable
   seminar_table <- flextable(seminars) |>
     theme_vanilla() |>    # Apply a clean theme

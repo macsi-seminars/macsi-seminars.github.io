@@ -8,21 +8,11 @@ toc-expand: true
 ---
 
 ```{r}
-library(readxl)
-library(dplyr)
-library(readr)
-library(stringr)
-library(lubridate)
-library(glue)
-library(janitor)
-library(knitr)
-
 source("R/helpers.R")
 
 #| echo: false
 #| message: false
 # library(tidyverse)
-library(htmlTable)
 ```
 
 
@@ -30,8 +20,6 @@ library(htmlTable)
 #| echo: false
 #| message: false
 
-# library(knitr)
-# library(kableExtra)
 # Example data
 seminars_pre <- read_csv("./data/AY24-25_sem_2_timetable.csv")
 

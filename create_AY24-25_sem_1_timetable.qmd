@@ -21,8 +21,6 @@ source("R/helpers.R")
 
 #| echo: false
 #| message: false
-# library(tidyverse)
-library(htmlTable)
 ```
 
 
@@ -34,31 +32,6 @@ library(htmlTable)
 # library(kableExtra)
 # Example data
 seminars_pre <- read_csv("./data/AY24-25_sem_1_timetable.csv")
-
-seminars <- seminars_pre |>
-   select(date, time, week_no, presenter, affiliation,
-           departmental_contact, title) |> 
-  rename(
-    Date = date,
-    Time = time, 
-    "Week no." = week_no,
-    Presenter = presenter, 
-    "Affil." = affiliation, 
-    "Dept. Contact" = departmental_contact, 
-    "Title" = title
-      )
-
-# Create the table
-# kable(seminars, format = "html", caption = "Upcoming MACSI Seminars") %>%
-#   kable_styling(full_width = FALSE, position = "center", bootstrap_options = c("striped", "hover"))
-library(flextable)
-library(xtable)
-# Create a nicely formatted table with flextable
-seminar_table <- flextable(seminars) |>
-  theme_vanilla() |>    # Apply a clean theme
-  autofit() |>        # Auto-size columns
-  fontsize(size = 11) |> 
-  set_caption("Upcoming MACSI Seminars")
 
 ```
 # Timetable
