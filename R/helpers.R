@@ -161,12 +161,12 @@ build_personal_website_icon <- function(url){
   url <- split_semicolon_urls(url)
   
   if(length(url) == 1){
-    text <- glue('<span class="bi bi-person-circle"></span> [Speaker\'s Website]({url})')
+    text <- glue('<span class="bi bi-person-circle"></span> [Speaker\'s Webpage]({url})')
   } else {
     text <- ""
     for(j in seq_along(url)){
       text <- glue::glue('{text}
-                   <span class="bi bi-person-circle"></span> [Speaker\'s Websites {j}]({url[j]})
+                   <span class="bi bi-person-circle"></span> [Speaker\'s Webpage {j}]({url[j]})
                    ')
     }
   }
