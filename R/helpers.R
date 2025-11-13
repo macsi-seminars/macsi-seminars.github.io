@@ -19,8 +19,6 @@ library(stringr)
 library(calendar)
 library(flextable)
 
-
-
 # general functions -------------------------------------------------------
 
 # Define a custom function to add ordinal suffix to days
