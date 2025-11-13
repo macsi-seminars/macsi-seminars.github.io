@@ -4,70 +4,77 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:ical-759fd9f7-e43f-4f9f-8b2b-de83bdc2ab68
+UID:ical-9f6bb91e-cec9-40eb-af89-f0c00706a5e4
 DTSTART:20250911T110000
 DTEND:20250911T120000
 SUMMARY:MACSI Seminar: Week no 1 given by Hlib Husarov & Eberhard Mayerhofer
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-2d581f92-e935-4fa4-bc29-37a220bde9f7
-DTSTART:20250917T160000
-DTEND:20250917T170000
+UID:ical-fa742c2c-e513-4b67-8a51-dafa6ee38625
+DTSTART:20250917T150000
+DTEND:20250917T160000
 SUMMARY:MACSI Seminar: Week no 2 given by Márton Karsai
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-2b442600-acb7-45a7-9da6-23607f1cefd2
+UID:ical-15a5de38-0dfe-47ed-a15e-6b5a9599b085
 DTSTART:20250926T150000
 DTEND:20250926T160000
 SUMMARY:MACSI Seminar: Week no 3 given by Nico Gray
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-b98bf631-6cb0-4a5a-ab42-783be0122f0f
+UID:ical-7ccc7a8f-9612-496d-9614-f93bf524d8a6
 DTSTART:20251009T110000
 DTEND:20251009T120000
 SUMMARY:MACSI Seminar: Week no 5 given by Lisa McFetridge
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-30bd6db6-5c7d-4cfb-911d-02478332a6e1
-DTSTART:20251016T110000
-DTEND:20251016T120000
+UID:ical-3712464e-3498-4572-ab97-903d22e6e9a9
+DTSTART:20251016T150000
+DTEND:20251016T160000
 SUMMARY:MACSI Seminar: Week no 6 given by Dingjia Cao
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-e232db9a-3f29-47a4-b517-aba64f07899a
+UID:ical-ac460903-78f3-4a1b-b3a7-01686226cc7d
 DTSTART:20251023T110000
 DTEND:20251023T120000
 SUMMARY:MACSI Seminar: Week no 7 given by Theresa Smith
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-78168afc-e3f2-43c0-8789-3ec3b957fe52
+UID:ical-fc308522-a6ea-4bb7-80d7-b1d39970886e
 DTSTART:20251106T110000
 DTEND:20251106T120000
 SUMMARY:MACSI Seminar: Week no 9 given by Yanghong Huang
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-1d8710a8-67ca-434f-9e64-f8713537351a
+UID:ical-c10fb99c-c7fd-4188-897d-c0a587b1508d
 DTSTART:20251113T110000
 DTEND:20251113T120000
 SUMMARY:MACSI Seminar: Week no 10 given by Lea Kaufmann
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-d8d73c81-57af-4883-a35b-3dcbff8b1138
+UID:ical-62ef4b03-8fa2-4bcb-a509-3538f1216e0b
 DTSTART:20251120T110000
 DTEND:20251120T120000
 SUMMARY:MACSI Seminar: Week no 11 given by Alison O'Connor
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-e74c55b0-db95-42b1-8886-21532e38674f
+UID:ical-36f3d4a2-264b-4a1c-a435-a328e0eb3738
+DTSTART:20251127T110000
+DTEND:20251127T120000
+SUMMARY:MACSI Seminar: Week no 12 given by Hugo Luiz Oliveira
+DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ical-0f2c91ee-584a-451a-943b-8c2c3d5f810b
 DTSTART:20251204T110000
 DTEND:20251204T120000
 SUMMARY:MACSI Seminar: Week no 13 given by Silvia D'Angelo

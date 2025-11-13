@@ -156,16 +156,41 @@ build_paper_icon <- function(url){
   return(text)
 }
 
+# from a single cell of url build the icons
+build_personal_website_icon <- function(url){
+  url <- split_semicolon_urls(url)
+  
+  if(length(url) == 1){
+    text <- glue('<span class="bi bi-person-circle"></span> [Speaker\'s Website]({url})')
+  } else {
+    text <- ""
+    for(j in seq_along(url)){
+      text <- glue::glue('{text}
+                   <span class="bi bi-person-circle"></span> [Speaker\'s Websites {j}]({url[j]})
+                   ')
+    }
+  }
+  return(text)
+}
+
+
 # for all icon we want to build create the text.
 create_icons_and_links <- function(seminars_pre, i){
   
   paper_url <- seminars_pre$link_to_paper[i]
   gs_url <- seminars_pre$google_scholar_profile[i]
+  piw_url <- seminars_pre$speakers_webpages[i]
   
   if(!is.na(paper_url)){
     paper_icon <- build_paper_icon(paper_url)
   } else {
     paper_icon <- ""
+  }
+  
+  if(!is.na(piw_url)){
+    piw_icon <- build_personal_website_icon(piw_url)
+  } else {
+    piw_icon <- ""
   }
   
   if(!is.na(gs_url)){
@@ -178,6 +203,8 @@ create_icons_and_links <- function(seminars_pre, i){
                      {gs_icon} 
                      
                      {paper_icon}
+                     
+                     {piw_icon}
                      ")
   return(text)
 }
