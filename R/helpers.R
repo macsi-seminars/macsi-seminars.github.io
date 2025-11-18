@@ -211,14 +211,20 @@ create_icons_and_links <- function(seminars_pre, i){
 # create ics file for website ---------------------------------------------
 
 # read in the seminar series csv and build the events for a calendar.
+
+parse_seminar_times <- function(date, time){
+  parse_date_time(
+    paste(date, time),
+    orders = c("Y-m-d I:M p", "Y-m-d I p"),  # with and without minutes
+    tz = "Europe/Dublin"
+  )}
+
 create_ics_seminar_series <- function(csv_path, ics_out){
   df <- read_csv(csv_path, show_col_types = FALSE)
   events <- df |>
     rowwise() |>
     mutate(
-      start_time = lubridate::ymd_h(
-        glue::glue("{date} {time}"), tz = "Europe/Dublin"
-      ),
+      start_time = parse_seminar_times(date, time),
       end_time = start_time + hours(1),
       summary = str_squish(glue::glue(
         "MACSI Seminar: Week no {week_no} given by {presenter}"
