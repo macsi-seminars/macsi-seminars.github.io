@@ -1,5 +1,5 @@
 ---
-title: "AY 2025-2026 Semester 2 Seminar Schedule"
+title: "AY 2025-2026 Semester 1 Seminar Schedule"
 execute:
   echo: false
   warning: false
@@ -22,7 +22,7 @@ source("R/helpers.R")
 # library(knitr)
 # library(kableExtra)
 # Example data
-seminars_pre <- read_csv("./data/AY25-26_sem_2_timetable.csv")
+seminars_pre <- read_csv("./data/AY25-26_sem_1_timetable.csv")
 
 ```
 

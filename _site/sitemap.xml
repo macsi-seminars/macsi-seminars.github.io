@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/index.html</loc>
-    <lastmod>2025-10-03T09:58:19.399Z</lastmod>
+    <lastmod>2025-12-08T14:14:53.411Z</lastmod>
   </url>
   <url>
-    <loc>/create_AY25-26_sem_2_timetable.html</loc>
-    <lastmod>2025-10-03T09:58:25.675Z</lastmod>
+    <loc>/create_AY26-27_sem_1_timetable.html</loc>
+    <lastmod>2025-12-08T14:13:54.829Z</lastmod>
+  </url>
+  <url>
+    <loc>/create_AY25-26_sem_1_timetable.html</loc>
+    <lastmod>2025-12-08T14:13:16.949Z</lastmod>
   </url>
   <url>
     <loc>/create_AY24-25_sem_1_timetable.html</loc>
@@ -19,6 +23,10 @@
   <url>
     <loc>/create_AY24-25_sem_2_timetable.html</loc>
     <lastmod>2025-11-12T21:33:46.580Z</lastmod>
+  </url>
+  <url>
+    <loc>/create_AY25-26_sem_2_timetable.html</loc>
+    <lastmod>2025-10-03T09:58:25.675Z</lastmod>
   </url>
   <url>
     <loc>/download_seminar_schedule.html</loc>

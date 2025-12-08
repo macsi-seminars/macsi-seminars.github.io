@@ -15,12 +15,14 @@ website:
   navbar:
     collapse-below: lg
     left:
-      - text: "AY25-26 Semesters 1 (current)"
+      - text: "AY25-26 Semesters 2 (current)"
         file: index.qmd
-      - text: "AY25-26 Semesters 2 (future)"
-        file: create_AY25-26_sem_2_timetable.qmd
+      - text: "AY26-27 Semesters 1 (future)"
+        file: create_AY26-27_sem_1_timetable.qmd
       - text: "Previous Semesters"
         menu:
+          - text: "AY25-26 Semesters 1"
+            file: create_AY25-26_sem_1_timetable.qmd
           - text: "AY24-25 Semesters 2"
             file: create_AY24-25_sem_2_timetable.qmd
           - text: "AY24-25 Semesters 1"
