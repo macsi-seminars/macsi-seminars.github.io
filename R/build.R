@@ -51,7 +51,7 @@ create_timetable_csv(output_file, excel_sheet, excel_path)
 
 # create calendar ---------------------------------------------------------
 
-csv_path <- "./data/AY25-26_sem_1_timetable.csv"
+csv_path <- "./data/AY25-26_sem_2_timetable.csv"
 ics_out  <- "calendar/macsi-seminar-series.ics"
 create_ics_seminar_series(csv_path, ics_out)
 
