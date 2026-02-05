@@ -4,49 +4,49 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:ical-4bec2862-f92d-4827-9a7a-525773d1cf6c
+UID:ical-80d69c96-bf0a-4880-ab5f-73c9d53b8892
 DTSTART:20260129T110000
 DTEND:20260129T120000
 SUMMARY:MACSI Seminar: Week no 1 given by Eoin O’Brien
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-d49c133c-79c5-4631-beb4-c2807a7eb5ce
-DTSTART:20260212T110000
-DTEND:20260212T120000
-SUMMARY:MACSI Seminar: Week no 3 given by Open
+UID:ical-fa511a5c-d25c-4ab6-b4da-cb44cc80f388
+DTSTART:20260210T000000
+DTEND:20260210T010000
+SUMMARY:MACSI Seminar: Week no 3 given by Finn Box
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-669dfcac-56d0-4f6e-86bf-e9c2a2755974
+UID:ical-cf6fe7fe-3590-45de-ac5d-47a4d16dc776
 DTSTART:20260226T110000
 DTEND:20260226T120000
 SUMMARY:MACSI Seminar: Week no 5 given by Philip Pearce
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-104cf413-f9fb-4192-ae8b-0393c027891f
+UID:ical-2b4018eb-786c-469f-beb6-15d6e6ebf5e9
 DTSTART:20260312T110000
 DTEND:20260312T120000
 SUMMARY:MACSI Seminar: Week no 7 given by Leah Keating
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-c0a1d45e-11d8-46ab-a02a-e530fa1d57b2
+UID:ical-b8424572-f2bf-41fb-9e2e-fa7ab27c3b26
 DTSTART:20260326T110000
 DTEND:20260326T120000
 SUMMARY:MACSI Seminar: Week no 9 given by Stuart Thomson
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-1e459c5d-63f8-4a9a-9c2d-dcc684d95f2c
+UID:ical-00721843-ac3d-4d52-9d95-b42dab6f64a7
 DTSTART:20260408T110000
 DTEND:20260408T120000
 SUMMARY:MACSI Seminar: Week no 11 given by Chris Howland
 DESCRIPTION:See seminar schedule and abstracts at https://macsi-seminars.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:ical-c7abfc2d-e508-43c1-a73f-de6dcdffe0b6
+UID:ical-230bdee1-a208-4bbb-8b99-88d73aa4d601
 DTSTART:20260423T110000
 DTEND:20260423T120000
 SUMMARY:MACSI Seminar: Week no 13 given by Andrew Keane

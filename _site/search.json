@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#seminar-week-1-by-eoin-obrien",
+    "href": "index.html#seminar-week-1-by-eoin-obrien",
     "title": "AY 2025-2026 Semester 2 Seminar Schedule",
-    "section": "",
-    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-01-29Thursday11am1Eoin O’BrienMaynooth UniversityDoireann O'KielyTBC2026-02-12Thursday11am3OpenTBCTBCTBC2026-02-26Thursday11am5Philip PearceUniversity College LondonDoireann O'KielyTBC2026-03-12Thursday11am7Leah KeatingUniversity of VermontJames GleesonTBC2026-03-26Thursday11am9Stuart ThomsonUniversity of BristolDoireann O'KielyTBC2026-04-08Wednesday11am11Chris HowlandUniversity College DublinDoireann O'KielyTBC2026-04-09Thursday11am11OpenTBCTBCTBC2026-04-23Thursday11am13Andrew KeaneUniversity College CorkJames GleesonTBC\n\n\n\n\n\n\n\n\n\nAbstracts\nAs seminar abstracts become available from the speakers this page will be updated."
+    "section": "Seminar week 1 by Eoin O’Brien",
+    "text": "Seminar week 1 by Eoin O’Brien\nDate: 2026-01-29 at 11am\nSpeaker: Eoin O’Brien (Maynooth University)\nHost: Mehakpreet Singh\nTitle: Modelling the evolution of a 3D microbubble in a Jeffrey fluid. \nAbstract: Bubbles often appear in non-Newtonian liquids from nature, engineering, to biomedical applications, such as ultrasonic cleaning, targeted drug delivery and non-destructive medical imaging. However, their study has been under researched compared to their Newtonian counterpart, where the introduction of differing geometries and pressure fields can lead to catastrophic and violent collapse, a phenomenon most widely associated with the destruction of all underwater turbines. In this talk, we introduce the underlying physical and numerical models for three-dimensional bubble mechanics and extend the axisymmetric modelling of Lind and Phillips (Lind and Phillips [2010a,b, 2013]) to investigate the effect of “relaxation time” in a Maxwell and Jeffrey fluid on the evolution of a bubble."
+  },
+  {
+    "objectID": "index.html#seminar-week-3-by-finn-box",
+    "href": "index.html#seminar-week-3-by-finn-box",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 3 by Finn Box",
+    "text": "Seminar week 3 by Finn Box\nDate: 2026-02-10 at 12am\nSpeaker: Finn Box (University of Manchester)\nHost: Doireann O’Kiely\nTitle: Poking Plants\nAbstract: Plants are natural feats of engineering and botany a playground of physical phenomena. In this talk, we’ll take a walk on the wild side and encounter ripe fruit, a gigantic leaf and an explosive cucumber. I’ll describe the bioballistics of seed dispersal, the structural economy of a vasculature network and the cloaking effect of a peel. In doing so, I hope to demonstrate that poking a plant is an effective way of testing its mechanical properties."
   },
   {
     "objectID": "create_AY26-27_sem_1_timetable.html",
@@ -389,7 +396,7 @@
     "href": "create_AY25-26_sem_2_timetable.html",
     "title": "AY 2025-2026 Semester 2 Seminar Schedule",
     "section": "",
-    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-01-29Thursday11am1Eoin O’BrienMaynooth UniversityDoireann O'KielyTBC2026-02-12Thursday11am3OpenTBCTBCTBC2026-02-26Thursday11am5Philip PearceUniversity College LondonDoireann O'KielyTBC2026-03-12Thursday11am7Leah KeatingUniversity of VermontJames GleesonTBC2026-03-26Thursday11am9Stuart ThomsonUniversity of BristolDoireann O'KielyTBC2026-04-08Wednesday11am11Chris HowlandUniversity College DublinDoireann O'KielyTBC2026-04-09Thursday11am11OpenTBCTBCTBC2026-04-23Thursday11am13Andrew KeaneUniversity College CorkJames GleesonTBC"
+    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-01-29Thursday11am1Eoin O’BrienMaynooth UniversityMehakpreet SinghModelling the evolution of a 3D microbubble in a Jeffrey fluid. 2026-02-10Tuesday12am3Finn BoxUniversity of ManchesterDoireann O'KielyPoking Plants2026-02-26Thursday11am5Philip PearceUniversity College LondonDoireann O'KielyTBC2026-03-12Thursday11am7Leah KeatingUniversity of VermontJames GleesonTBC2026-03-26Thursday11am9Stuart ThomsonUniversity of BristolDoireann O'KielyTBC2026-04-08Wednesday11am11Chris HowlandUniversity College DublinDoireann O'KielyTBC2026-04-23Thursday11am13Andrew KeaneUniversity College CorkJames GleesonTBC"
   },
   {
     "objectID": "download_seminar_schedule.html#difference-between-download-and-subscribe",
