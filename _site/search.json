@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "index.html#seminar-week-1-by-eoin-obrien",
-    "href": "index.html#seminar-week-1-by-eoin-obrien",
-    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
-    "section": "Seminar week 1 by Eoin O’Brien",
-    "text": "Seminar week 1 by Eoin O’Brien\nDate: 2026-01-29 at 11am\nSpeaker: Eoin O’Brien (Maynooth University)\nHost: Mehakpreet Singh\nTitle: Modelling the evolution of a 3D microbubble in a Jeffrey fluid. \nAbstract: Bubbles often appear in non-Newtonian liquids from nature, engineering, to biomedical applications, such as ultrasonic cleaning, targeted drug delivery and non-destructive medical imaging. However, their study has been under researched compared to their Newtonian counterpart, where the introduction of differing geometries and pressure fields can lead to catastrophic and violent collapse, a phenomenon most widely associated with the destruction of all underwater turbines. In this talk, we introduce the underlying physical and numerical models for three-dimensional bubble mechanics and extend the axisymmetric modelling of Lind and Phillips (Lind and Phillips [2010a,b, 2013]) to investigate the effect of “relaxation time” in a Maxwell and Jeffrey fluid on the evolution of a bubble."
-  },
-  {
-    "objectID": "index.html#seminar-week-3-by-finn-box",
-    "href": "index.html#seminar-week-3-by-finn-box",
-    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
-    "section": "Seminar week 3 by Finn Box",
-    "text": "Seminar week 3 by Finn Box\nDate: 2026-02-10 at 12am\nSpeaker: Finn Box (University of Manchester)\nHost: Doireann O’Kiely\nTitle: Poking Plants\nAbstract: Plants are natural feats of engineering and botany a playground of physical phenomena. In this talk, we’ll take a walk on the wild side and encounter ripe fruit, a gigantic leaf and an explosive cucumber. I’ll describe the bioballistics of seed dispersal, the structural economy of a vasculature network and the cloaking effect of a peel. In doing so, I hope to demonstrate that poking a plant is an effective way of testing its mechanical properties."
-  },
-  {
-    "objectID": "index.html#seminar-week-5-by-philip-pearce",
-    "href": "index.html#seminar-week-5-by-philip-pearce",
-    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
-    "section": "Seminar week 5 by Philip Pearce",
-    "text": "Seminar week 5 by Philip Pearce\nDate: 2026-02-26 at 11am\nSpeaker: Philip Pearce (University College London)\nHost: Doireann O’Kiely\nTitle: Multi-scale modelling of pattern formation in cell populations\nAbstract: I will talk about a few projects in which the behaviour of cells affects self-organisation and/or pattern formation on surfaces. First, I will show how cell-fluid interactions affect surface attachment of swimming bacteria in fluid flow. Then, I will show how cell-cell interactions generate emergent fluid-like material properties in cell aggregates, with implications for pattern formation during chemotactic migration"
-  },
-  {
-    "objectID": "create_AY26-27_sem_1_timetable.html",
-    "href": "create_AY26-27_sem_1_timetable.html",
-    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AY 2026-2027 Semester 1 Seminar Schedule",
     "section": "",
-    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-09-10Thursday11am1OpenTBCTBCTBC2026-09-24Thursday11am3OpenTBCTBCTBC2026-10-08Thursday11am5OpenTBCTBCTBC2026-10-22Thursday11am7OpenTBCTBCTBC2026-11-05Thursday11am9OpenTBCTBCTBC2026-11-19Thursday11am11OpenTBCTBCTBC2026-04-09Thursday11am13OpenTBCTBCTBC"
+    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-09-10Thursday11am1OpenTBCTBCTBC2026-09-24Thursday11am3OpenTBCTBCTBC2026-10-08Thursday11am5OpenTBCTBCTBC2026-10-22Thursday11am7OpenTBCTBCTBC2026-11-05Thursday11am9OpenTBCTBCTBC2026-11-19Thursday11am11OpenTBCTBCTBC2026-04-09Thursday11am13OpenTBCTBCTBC\n\n\n\n\n\n\n\n\n\nAbstracts\nAs seminar abstracts become available from the speakers this page will be updated."
+  },
+  {
+    "objectID": "create_AY26-27_sem_2_timetable.html",
+    "href": "create_AY26-27_sem_2_timetable.html",
+    "title": "AY 2026-2027 Semester 2 Seminar Schedule",
+    "section": "",
+    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2027-01-28Thursday11am1OpenTBCTBCTBC2027-02-11Thursday11am3OpenTBCTBCTBC2027-02-25Thursday11am5OpenTBCTBCTBC2027-03-11Thursday11am7OpenTBCTBCTBC2027-03-25Thursday11am9OpenTBCTBCTBC2027-04-08Thursday11am11OpenTBCTBCTBC2027-04-22Thursday11am13OpenTBCTBCTBC\n\n\n\n\n\n\n\n\n\nAbstracts\nAs seminar abstracts become available from the speakers this page will be updated."
   },
   {
     "objectID": "create_AY25-26_sem_1_timetable.html#seminar-week-1-by-hlib-husarov-eberhard-mayerhofer",
@@ -399,11 +385,102 @@
     "text": "Seminar week 18 by Jean-Gabriel Young\nDate: 2025-05-28 at 12pm\nSpeaker: Jean-Gabriel Young (University of Vermont)\nHost: David O’Sullivan\nTitle: Designing interventions with message passing on clustered graphs\nAbstract: Models of contagions can describe many network dynamics, such as cascading failures in economic systems, information diffusion, and pathogen transmission. They figure prominently in intervention design problems—for example, deciding how to roll out vaccines or designing robust economic systems. The idea is, roughly, to test counterfactuals provided by realistic contagion models and tune the system to increase the likelihood of favorable outcomes. Unfortunately, this process involves costly numerical optimization and calculations. In this talk, I will first review the message passing framework, which is routinely used to tame the intervention design problem’s complexity. I will then highlight some well-known issues with this framework, chiefly that it overestimates the likelihood of a contagion spreading. I will then discuss two promising approaches for correcting this issue: the neighborhood message passing (NMP) framework and a new graph machine learning algorithm."
   },
   {
-    "objectID": "create_AY25-26_sem_2_timetable.html",
-    "href": "create_AY25-26_sem_2_timetable.html",
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-1-by-eoin-obrien",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-1-by-eoin-obrien",
     "title": "AY 2025-2026 Semester 2 Seminar Schedule",
-    "section": "",
-    "text": "Timetable\n\n\nDateDayTimeWeek no.PresenterAffil.Dept. ContactTitle2026-01-29Thursday11am1Eoin O’BrienMaynooth UniversityMehakpreet SinghModelling the evolution of a 3D microbubble in a Jeffrey fluid. 2026-02-10Tuesday12am3Finn BoxUniversity of ManchesterDoireann O'KielyPoking Plants2026-02-26Thursday11am5Philip PearceUniversity College LondonDoireann O'KielyMulti-scale modelling of pattern formation in cell populations2026-03-12Thursday11am7Leah KeatingUniversity of VermontJames GleesonTBC2026-03-26Thursday11am9Stuart ThomsonUniversity of BristolDoireann O'KielyTBC2026-04-08Wednesday11am11Chris HowlandUniversity College DublinDoireann O'KielyTBC2026-04-23Thursday11am13Andrew KeaneUniversity College CorkJames GleesonTBC"
+    "section": "Seminar week 1 by Eoin O’Brien",
+    "text": "Seminar week 1 by Eoin O’Brien\nDate: 2026-01-29 at 11am\nSpeaker: Eoin O’Brien (Maynooth University)\nHost: Mehakpreet Singh\nTitle: Modelling the evolution of a 3D microbubble in a Jeffrey fluid. \nAbstract: Bubbles often appear in non-Newtonian liquids from nature, engineering, to biomedical applications, such as ultrasonic cleaning, targeted drug delivery and non-destructive medical imaging. However, their study has been under researched compared to their Newtonian counterpart, where the introduction of differing geometries and pressure fields can lead to catastrophic and violent collapse, a phenomenon most widely associated with the destruction of all underwater turbines. In this talk, we introduce the underlying physical and numerical models for three-dimensional bubble mechanics and extend the axisymmetric modelling of Lind and Phillips (Lind and Phillips [2010a,b, 2013]) to investigate the effect of “relaxation time” in a Maxwell and Jeffrey fluid on the evolution of a bubble."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-3-by-finn-box",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-3-by-finn-box",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 3 by Finn Box",
+    "text": "Seminar week 3 by Finn Box\nDate: 2026-02-10 at 12am\nSpeaker: Finn Box (University of Manchester)\nHost: Doireann O’Kiely\nTitle: Poking Plants\nAbstract: Plants are natural feats of engineering and botany a playground of physical phenomena. In this talk, we’ll take a walk on the wild side and encounter ripe fruit, a gigantic leaf and an explosive cucumber. I’ll describe the bioballistics of seed dispersal, the structural economy of a vasculature network and the cloaking effect of a peel. In doing so, I hope to demonstrate that poking a plant is an effective way of testing its mechanical properties."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-5-by-philip-pearce",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-5-by-philip-pearce",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 5 by Philip Pearce",
+    "text": "Seminar week 5 by Philip Pearce\nDate: 2026-02-26 at 11am\nSpeaker: Philip Pearce (University College London)\nHost: Doireann O’Kiely\nTitle: Multi-scale modelling of pattern formation in cell populations\nAbstract: I will talk about a few projects in which the behaviour of cells affects self-organisation and/or pattern formation on surfaces. First, I will show how cell-fluid interactions affect surface attachment of swimming bacteria in fluid flow. Then, I will show how cell-cell interactions generate emergent fluid-like material properties in cell aggregates, with implications for pattern formation during chemotactic migration."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-7-by-leah-keating",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-7-by-leah-keating",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 7 by Leah Keating",
+    "text": "Seminar week 7 by Leah Keating\nDate: 2026-03-12 at 11am\nSpeaker: Leah Keating (University of Vermont)\nHost: James Gleeson\nTitle: Loops, not groups: Long cycles are responsible for discontinuous phase transitions in higher-order contagions\nAbstract: Discontinuous phase transitions are often observed in the outbreak sizes when we have dynamics on higher-order networks. Here, we consider higher-order networks to be networks with groups. In this talk, we consider complex-contagion dynamics on a network with groups of size two and three. We show that just having groups is insufficient to observe a discontinuous phase transition in the outbreak size, and that longer cycles are required to produce this behaviour. This brings us closer to fully understanding why we sometimes see discontinuous phase transitions in dynamics on higher-order networks where we do not in the dyadic versions of the models.\n Speaker’s Paper\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-8-by-catherine-higgins",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-8-by-catherine-higgins",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 8 by Catherine Higgins",
+    "text": "Seminar week 8 by Catherine Higgins\nDate: 2026-03-19 at 11am\nSpeaker: Catherine Higgins (University College Dublin)\nHost: David O’Sullivan\nTitle: Novel approaches for clustering gene expression profiles in temporal and spatial transcriptomics\nAbstract: Functional clustering methods group curves without prior knowledge of the underlying clustering structure. A key challenge is class imbalance,where some clusters are significantly larger than others. This leads to smaller clusters being misclassified into larger clusters, resulting in a poor clustering accuracy. While class imbalance is well-studied in supervised classification, it has received limited attention in unsupervised settings. To address this, we introduce functional iterative hierarchical clustering (funIHC), a novel method for clustering imbalanced one-dimensional functional data. We demonstrate the effectiveness of funIHC against sixteen leading alternatives. We extend this methodology to two-dimensional functional data with spatial transcriptomics IHC (stIHC), focusing on clustering spatially variable genes into modules that reflect shared spatial expression patterns. We demonstrate that stIHC outperforms existing clustering methods in spatial transcriptomics. Gene ontology enrichment analysis confirms that both funIHC and stIHC identify biologically coherent and distinct clusters, demonstrating their utility for meaningful clustering in both time and space.\n Speaker’s Google Scholar\n Speaker’s Paper 1  Speaker’s Paper 2\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-9-by-stuart-thomson",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-9-by-stuart-thomson",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 9 by Stuart Thomson",
+    "text": "Seminar week 9 by Stuart Thomson\nDate: 2026-03-26 at 11am\nSpeaker: Stuart Thomson (University of Bristol)\nHost: Doireann O’Kiely\nTitle: Driven interfacial hydrodynamics, and some physics-informed machine learning\nAbstract: In this talk I will present a few topics of recent interest that centre around the theme of “driven interfacial hydrodynamics”: fluid mechanical systems in which droplets and particles are self-propelled through interaction with the environment. I will also present some very recent work on using differentiable physics (a branch of physics-informed machine learning) to determine constitutive relations for highly plasticised metals."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-10-by-cornelius-fritz",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-10-by-cornelius-fritz",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 10 by Cornelius Fritz",
+    "text": "Seminar week 10 by Cornelius Fritz\nDate: 2026-04-02 at 11am\nSpeaker: Cornelius Fritz (Trinity College Dublin)\nHost: David O’Sullivan\nTitle: Scalable Durational Event Models: Application to Physical and Digital Interactions\nAbstract: Durable interactions are ubiquitous in social network analysis and are increasingly observed with precise time stamps. Phone and video calls, for example, are events to which a specific duration can be assigned. We term data encoding interactions with the start and end times “durational event data”. Recent advances in data collection have enabled the observation of such data over extended periods of time and between large populations of actors. Methodologically, we propose the Durational Event Model, an extension of Relational Event Models that decouples the modeling of event incidence from event duration. Computationally, we derive a fast, memory-efficient, and exact block-coordinate ascent algorithm to facilitate large-scale inference. Theoretical complexity analysis and numerical simulations demonstrate computational superiority of this approach over state-of-the-art methods. We apply the model to physical and digital interactions among college students in Copenhagen.  Our empirical findings reveal that past interactions drive physical interactions, whereas digital interactions are influenced predominantly by friendship ties and prior dyadic contact.\n Speaker’s Google Scholar\n Speaker’s Paper\n Speaker’s Webpage 1  Speaker’s Webpage 2"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-11-by-chris-howland",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-11-by-chris-howland",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 11 by Chris Howland",
+    "text": "Seminar week 11 by Chris Howland\nDate: 2026-04-08 at 11am\nSpeaker: Chris Howland (University College Dublin)\nHost: Doireann O’Kiely\nTitle: Convection and phase changes in environmental flows\nAbstract: Many processes in the climate system can be related to the coupling of fluid convection and thermodynamic phase changes, from ice-ocean interactions in polar regions to the formation and evolution of clouds in the atmosphere. In this talk, I will discuss some recent work aimed at understanding the fundamental interactions between convection and phase changes in simple systems, with a focus on the effects of turbulence on ice melting. Firstly, motivated by the flows beside marine-terminating glaciers, I will describe work focused on understanding boundary layers in turbulent convection at vertical walls. I focus on the complexities introduced by a high Prandtl number (relevant to seawater) and the effect of an ambient flow, where a transition between buoyancy-driven and shear-driven boundary layers occurs. Secondly, I will outline a newly-developed immersed boundary technique for simulating melting objects in turbulent flows, which reveals the subtle effects that the free motion of melting ice objects can introduce."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-11-by-michel-destrade",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-11-by-michel-destrade",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 11 by Michel Destrade",
+    "text": "Seminar week 11 by Michel Destrade\nDate: 2026-04-09 at 12am\nSpeaker: Michel Destrade (University of Galway)\nHost: Doireann O’Kiely\nTitle: An introduction to the European Research Council grants\nAbstract: This talk provides an insider’s overview of the European Research Council and its funding schemes, informed by a 12-month secondment at the ERC Executive Agency in Brussels in 2024-25. It explains how ERC proposals are evaluated in practice, with emphasis on what panels look for when assessing excellence, ambition, and feasibility. The presentation covers the different ERC grant types, the structure of proposals, the two-step evaluation process, common misconceptions, and recurring reasons why strong applications might fail. It also discusses how to frame a compelling frontier-research narrative and how to position oneself strategically for the ERC grants.\n Speaker’s Google Scholar\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-12-by-carl-scarrott",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-12-by-carl-scarrott",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 12 by Carl Scarrott",
+    "text": "Seminar week 12 by Carl Scarrott\nDate: 2026-04-16 at 11am\nSpeaker: Carl Scarrott (University of Galway)\nHost: Shirin Moghaddam\nTitle: Bayes-ically Fair: Bayesian Ranking of Olympic Medal Performances\nAbstract: Evaluating a country’s sporting success can provide insight into its decision-making and the infrastructure used to develop athletic talent. The Olympic Games serve as a global benchmark, yet conventional medal tables can be overly influenced by population size or highly variable, particularly for smaller nations where outcomes are more affected by stochastic fluctuations.\nWe propose a Bayesian ranking scheme to rank the performance of National Olympic Committees by inferring an underlying `long-run’ medals-to-population rate. The approach applies shrinkage to stabilise estimates for small-population countries while leaving large-population countries comparatively unchanged. The Bayesian framework yields posterior distributions over both the inferred medals-per-capita performance and the induced ranks, providing a principled measure of uncertainty in each country’s ranking position.\n Speaker’s Google Scholar\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-13-by-andrew-keane",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-13-by-andrew-keane",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 13 by Andrew Keane",
+    "text": "Seminar week 13 by Andrew Keane\nDate: 2026-04-23 at 11am\nSpeaker: Andrew Keane (University College Cork)\nHost: James Gleeson\nTitle: Fragmented tipping of the Atlantic Meridional Ocean Circulation\nAbstract: The tipping of the Atlantic Meridional Overturning Circulation (AMOC) to a ‘shutdown’ state due to changes in the freshwater forcing of the ocean is of particular interest and concern due to its widespread ramifications, including a dramatic climatic shift for much of Europe. A clear understanding of how such a shutdown would unfold requires analyses of models from across the complexity spectrum. For example, detailed simulations of sophisticated Earth System Models have identified scenarios of ‘fragmented’ tipping towards a complete shutdown of AMOC, in which deep-water formation first ceases in the Labrador Sea before ceasing in the Nordic Seas. Here, we study a simple ocean box model with two polar boxes designed to represent deep-water formation at these two distinct sites. A bifurcation analysis reveals how, depending on the differences of freshwater and thermal forcing between the two polar boxes, transitions to ‘partial shutdown’ states are possible. Our results shed light on the nature of the tipping of AMOC and clarify dynamical features observed in more sophisticated models."
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-14-by-florian-faucher",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-14-by-florian-faucher",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 14 by Florian Faucher",
+    "text": "Seminar week 14 by Florian Faucher\nDate: 2026-04-30 at 3pm\nSpeaker: Florian Faucher (University of Pau and Pays de l’Adour)\nHost: Romina Gaburro\nTitle: Quantitative inverse wave problem for passive imaging using cross-correlation data.\nAbstract: We investigate the quantitative reconstruction of physical properties in the context of passive imaging, where ambient wavefields are used to probe a medium. These ambient signals correspond to oscillations of the system generated by stochastic events. We discuss in particular helioseismology, where satellites observe solar oscillations that are driven by turbulent convective motion. Considering the data as a superposition of waves generated by stochastic sources, the expected value of the cross-correlation between signals is related to the deterministic Green’s function. The inverse wave problem is then formulated through an iterative minimization procedure, in which the gradient of the misfit functional is computed via the adjoint-state method. We focus on time-harmonic acoustic wave propagation and carry out synthetic experiments, comparing inversions based on cross-correlation data with those using direct wavefield measurements in the configuration of active-source acquisitions.\n Speaker’s Google Scholar\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-16-by-alan-demlow",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-16-by-alan-demlow",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 16 by Alan Demlow",
+    "text": "Seminar week 16 by Alan Demlow\nDate: 2026-05-13 at 11am\nSpeaker: Alan Demlow (Texas A&M)\nHost: Natalia Kopteva\nTitle: Finite element methods for the surface Stokes equations\nAbstract: The surface Navier-Stokes equations are used to describe fluid flows on surfaces. A paradigm physical example is modeling the deformation of fluidic membranes. Constructing finite element methods for surface Stokes problems has proved challenging because the canonical finite element methods for Euclidean Stokes problems do not easily translate to the surface context. In this talk we will first review the basics of finite element methods for scalar elliptic problems posed on Euclidean domains and surfaces. We will then briefly discuss construction of finite element methods for Euclidean Stokes problems and describe obstacles to the development of surface Stokes FEM. Finally, we describe a new approach that yields effective translation of Euclidean Stokes elements such as the canonical Taylor-Hood elements to the surface Stokes context.\n Speaker’s Google Scholar\n Speaker’s Webpage"
+  },
+  {
+    "objectID": "create_AY25-26_sem_2_timetable.html#seminar-week-19-by-martine-barons",
+    "href": "create_AY25-26_sem_2_timetable.html#seminar-week-19-by-martine-barons",
+    "title": "AY 2025-2026 Semester 2 Seminar Schedule",
+    "section": "Seminar week 19 by Martine Barons",
+    "text": "Seminar week 19 by Martine Barons\nDate: 2026-06-03 at 10am\nSpeaker: Martine Barons (Warwick University)\nHost: Padraig MacCarron\nTitle: Introduction to integrating decision support systems with applications in food security, archives and pollination eco-services.\nAbstract: In today’s complex, increasingly interconnected world, old paradigms for supporting decision making under uncertainty are falling short of the needs of decision-makers.  Typically, a wide range of factors are at play, each overseen by specialists who rely on large, complex models to oversee and make forecasts for their particular part of the system.  A single overarching model for the whole system is infeasible and rapidly becomes outdated as matters evolve.  The Integrating Decision Support System was developed to provide a robust statistical underpinning for decision support systems in such circumstances. The IDSS is a transparent and principled method for drawing together evidence from multiple expert domains, including the relevant uncertainties, and turning these into usable insights that can support decision centres in evaluating and comparing the range of policy options at their disposal."
   },
   {
     "objectID": "download_seminar_schedule.html#difference-between-download-and-subscribe",

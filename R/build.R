@@ -14,19 +14,24 @@ source("R/helpers.R")
 
 
 # next sem open slots
+output_file = "data/AY26-27_sem_2_timetable.csv" 
+excel_sheet = "AY2026-2027 Sem 2"
+excel_path = "data/MACSI seminar series.xlsx"
+create_timetable_csv(output_file, excel_sheet, excel_path)
+
+# current 
 output_file = "data/AY26-27_sem_1_timetable.csv" 
 excel_sheet = "AY2026-2027 Sem 1"
 excel_path = "data/MACSI seminar series.xlsx"
 create_timetable_csv(output_file, excel_sheet, excel_path)
 
-# current 
+
+# older sems --------------------------------------------------------------
+
 output_file = "data/AY25-26_sem_2_timetable.csv" 
 excel_sheet = "AY2025-2026 Sem 2"
 excel_path = "data/MACSI seminar series.xlsx"
 create_timetable_csv(output_file, excel_sheet, excel_path)
-
-
-# older sems --------------------------------------------------------------
 
 output_file = "data/AY25-26_sem_1_timetable.csv" 
 excel_sheet = "AY2025-2026 Sem 1"
